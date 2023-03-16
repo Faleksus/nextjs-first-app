@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import PostInfo from "@/components/PostInfo";
+import PostInfo from "../../components/PostInfo";
 
 // getStaticPaths - это функция, которая генерирует пути для динамических роутов
 export const getStaticPaths = async () => {

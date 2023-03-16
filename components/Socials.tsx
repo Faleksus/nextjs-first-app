@@ -1,6 +1,6 @@
-import { socialsType } from "@/types";
+import { socialsType } from "../types";
 import Head from "next/head";
-import React, { FC, ReactNode } from "react";
+import React, { FC } from "react";
 import styles from "../styles/Socials.module.scss";
 
 type socialsProps = {

@@ -1,4 +1,4 @@
-import { postType } from "@/types";
+import { postType } from "../types";
 import React, { FC } from "react";
 import Heading from "./Heading";
 

@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import Head from "next/head";
-import ContactInfo from "@/components/ContactInfo";
+import ContactInfo from "../../components/ContactInfo";
 import { GetServerSideProps } from "next";
-import { contactType } from "@/types";
+import { contactType } from "../../types";
 
 type contactTypeProps = {
   contact: contactType;
